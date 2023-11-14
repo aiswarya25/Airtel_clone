@@ -108,11 +108,10 @@ a{
 }
 
 .inside1-hed-dp2{
-    
     padding: 8px;
     display: flex;
     align-items: center;
-    
+    padding: 0 18px;
     cursor: pointer;
     color: #292c31;
     text-decoration: none;
