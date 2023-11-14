@@ -139,6 +139,41 @@ a{
     white-space: nowrap;
     padding: 8px;
 }
+#op{
+    color: red;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 2px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background: #f0f1f4;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
 /*
 outer label
 
