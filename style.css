@@ -250,9 +250,11 @@ ul li a{
 
 ul li ul.dropdown li{
     display: block;
+    color: black;
 }
 
 ul li ul.dropdown{
+    color: black;
     width: 135px;
     position: absolute;
     z-index: 999;
@@ -262,6 +264,7 @@ ul li a:hover{
     background: #f0f1f4;
 }
 ul li:hover ul.dropdown{
+    color: black;
     display: block;
 }
 
@@ -289,3 +292,76 @@ inside label
     width: 64px;
     height: 2px;
 }
+
+
+/**/
+.row2-header{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    
+    max-width: 1256px;
+    box-sizing: border-box;
+    background: green;
+    height: 70px;
+    
+}
+
+.header-second-row{
+    color: #696b6f;
+    border-bottom: 2px solid #e8e8eb;
+}
+
+.row2-header2-inside{
+    
+    background: orange;
+    height: 70px;
+    align-items: center;
+    width: 1226px;
+    margin: 0 auto;
+
+    
+}
+.inside1{
+    width: 94px;
+    
+    height: 70px;
+    
+    display: flex;
+    flex-direction: column;
+    margin: 17px -13px;
+    padding: 0;
+    position: relative;
+    
+    cursor: pointer;
+    overflow: hidden;
+    box-sizing: border-box;
+    outline: none;
+}
+.inside2{
+    margin: -104px 377px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    outline: none;
+    
+    background: red;
+    height: 70px;
+    width: 856px;
+}
+
+.icon1{
+    width: 93px;
+    height: 23px;
+}
+/*text-decoration: none;
+display: flex;
+
+box-sizing: border-box;
+    outline: none;
+    
+    cursor: pointer;*/
