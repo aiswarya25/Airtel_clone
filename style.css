@@ -16,6 +16,7 @@
     margin: 0px auto ;
 }
 
+
 .header-inside2{
     padding: 12px;
     position: relative;
@@ -25,6 +26,8 @@
     
     width: 1165px;
     height: 14px;
+
+    
 }
 
 
@@ -35,6 +38,7 @@
     margin-right: -28px;
     width: 370px;
     height: 38px;
+    padding-left: 2;
     
 }
 a{
@@ -45,9 +49,7 @@ a{
     font-display: swap;
     font-family: TondoBold, sans-serif;
     cursor: inherit;
-
-    color: #e90000;
-    
+    color: #e90000; 
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.02em;
@@ -66,12 +68,15 @@ a{
     position: relative;
     margin-right: 24px;
 }
-.hed-disp1{
 
-}
+
+
+
+
+/*
 .hed-disp1y:hover{
     font-size: 12px;
-    line-height: 14px;
+    
     letter-spacing: 0.02em;
     white-space: nowrap;
     font-style: normal;
@@ -87,11 +92,11 @@ a{
     font-family: TondoBold, sans-serif;
     cursor: inherit;
 }
-
+*/
 
 .formybusibtn{
     font-size: 12px;
-    line-height: 14px;
+    line-height: 12px;
     letter-spacing: 0.02em;
     white-space: nowrap;
     font-style: normal;
@@ -102,14 +107,40 @@ a{
     display: block;
     position: relative;
     margin-right: 24px;
-    padding: 12px 8px;
+    padding: 7px 8px;
     text-transform: uppercase;
     color: #87888a;
 }
+
+
+.formybusibtn:hover{
+    color: #e90000;
+}
+
+.formybusibtn-hidden{
+    margin-left: 15px;
+    background: #eb4f4f;
+    width: 115px;
+    height: 2px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+            
+            
+}
+.formybusibtn:hover .formybusibtn-hidden{
+    display: block;
+}
+
+/*for investors styles*/
+
+
+
 .forinvestors{
     cursor: inherit;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 12px;
     letter-spacing: 0.02em;
     white-space: nowrap;
     font-style: normal;
@@ -119,10 +150,40 @@ a{
     display: block;
     position: relative;
     margin-right: 24px;
-    padding: 12px 8px;
+    
+    padding: 7px 0px;
     text-transform: uppercase;
     color: #87888a;
 
+}
+
+.forinvestors1{
+    margin-left: -20px;
+    margin-top: 0px;
+    line-height: 12px;
+    position: relative;
+    padding: 7px 0px;
+}
+
+.forinvestors:hover{
+    color: #e90000;
+}
+
+.forinvestors-hidden{
+    margin-left: -1px;
+    background: #eb4f4f;
+    width: 102px;
+    height: 2px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+            
+            
+}
+
+.forinvestors1:hover .forinvestors-hidden{
+    display: block;
 }
 
 /*no color*/
@@ -220,3 +281,11 @@ inside label
    
    
 */
+
+
+/*first red-line*/
+.red-line1{
+    background: #eb4f4f;
+    width: 64px;
+    height: 2px;
+}
