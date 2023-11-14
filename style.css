@@ -39,6 +39,8 @@ a{
     color: #87888a;
 }
 .formebtn{
+    font-display: swap;
+    font-family: TondoBold, sans-serif;
     cursor: inherit;
     color: #e90000;
     font-size: 12px;
@@ -59,8 +61,93 @@ a{
     position: relative;
     margin-right: 24px;
 }
+
+.formybusibtn{
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    font-family: TondoBold, sans-serif;
+    cursor: inherit;
+    display: block;
+    position: relative;
+    margin-right: 24px;
+    padding: 12px 8px;
+    text-transform: uppercase;
+    color: #87888a;
+}
+.forinvestors{
+    cursor: inherit;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    font-family: TondoBold, sans-serif;
+    display: block;
+    position: relative;
+    margin-right: 24px;
+    padding: 12px 8px;
+    text-transform: uppercase;
+    color: #87888a;
+
+}
+
+/*no color*/
+.hed-dip2{
+    position: relative;
+    display: block;
+    background-color: orange;
+    width: 140px;
+    height: 36px;
+}
+
+.inside1-hed-dp2{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    cursor: pointer;
+    color: #292c31;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    outline: none;
+}
+.label1{
+    align-items: center;
+    color: #ff4949;
+}
+.label1-inside1{
+    display: flex;
+    line-height: 16px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+   box-sizing: border-box;
+    outline: none;
+    color: #ff4949;
+    font-family: Tondo, sans-serif;
+    letter-spacing: -0.005em;
+    white-space: nowrap;
+    padding: 8px;
+}
 /*
-content: "";
+outer label
+
+
+inside label
+
+
+    
+
 
 
     
