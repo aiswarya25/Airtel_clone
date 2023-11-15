@@ -365,3 +365,24 @@ box-sizing: border-box;
     outline: none;
     
     cursor: pointer;*/
+
+
+ul li ul.dropdown1 li{
+    display: block;
+    color: black;
+}
+
+ul li ul.dropdown1{
+    color: black;
+    width: 135px;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background: #f0f1f4;
+}
+ul li:hover ul.dropdown1{
+    color: black;
+    display: block;
+}
